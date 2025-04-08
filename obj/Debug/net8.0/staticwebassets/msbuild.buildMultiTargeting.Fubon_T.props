@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Fubon_T.props" />
+</Project>
