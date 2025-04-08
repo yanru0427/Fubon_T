@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fubon_T")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6083fdbd36df12831951e37271b037e68624538")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fubon_T")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fubon_T")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
