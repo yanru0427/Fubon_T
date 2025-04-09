@@ -8,10 +8,17 @@ namespace Fubon_T.Controllers
     {
         private readonly IMemberService _service;
 
-        public MemberController(IMemberService service) => _service = service;
+        public MemberController(IMemberService service)
+        {
+             _service = service;
+         } 
 
         [HttpGet]
-        public IActionResult Register() => View();
+        public IActionResult Register()
+        {
+            return View();
+        }
+            
 
         [HttpPost]
         public IActionResult Register(RegisterViewModel model)
@@ -29,7 +36,10 @@ namespace Fubon_T.Controllers
             return RedirectToAction("RegisterSuccess");
         }
 
-        public IActionResult RegisterSuccess() => View();
+        public IActionResult RegisterSuccess()
+        {
+            return View();
+        }
 
     }
 }

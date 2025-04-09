@@ -22,7 +22,7 @@ namespace Fubon_T.Services
             var member = new Member
             {
                 Username = model.Username,
-                PasswordHash = BCrypt.Net.BCrypt.HashPassword(model.Password),
+                Password = model.Password,
                 Email = model.Email,
                 AddTime = DateTime.UtcNow
             };

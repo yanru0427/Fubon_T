@@ -1,22 +1,32 @@
-﻿using Fubon_T.Data;
+﻿using Dapper;
 using Fubon_T.Models;
 using Fubon_T.Repositories.Interfaces;
+using System.Data;
 
 namespace Fubon_T.Repositories
 {
     public class MemberRepository : IMemberRepository
     {
-        private readonly AppDbContext _db;
-        public MemberRepository(AppDbContext db) => _db = db;
+        private readonly IDbConnection _db;
 
-        public bool Exists(string username) =>
-            _db.Members.Any(x => x.Username == username);
+        public MemberRepository(IDbConnection db)
+        {
+            _db = db;
+        }
+
+        public bool Exists(string username)
+        {
+            var sql = "SELECT COUNT(1) FROM Members WHERE Username = @Username";
+            return _db.ExecuteScalar<int>(sql, new { Username = username }) > 0;
+        }
 
         public void Create(Member member)
         {
-            Console.WriteLine($"[DEBUG] 儲存會員：{member.Username}");
-            _db.Members.Add(member);
-            _db.SaveChanges();
+            var sql = @"
+                INSERT INTO Members (Username, Email, Password, AddTime)
+                VALUES (@Username, @Email, @Password, @AddTime)";
+
+            _db.Execute(sql, member);
         }
     }
 }

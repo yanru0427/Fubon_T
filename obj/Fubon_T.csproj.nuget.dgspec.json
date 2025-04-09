@@ -50,9 +50,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "BCrypt.Net-Core": {
+            "Dapper": {
               "target": "Package",
-              "version": "[1.6.0, )"
+              "version": "[2.1.66, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",

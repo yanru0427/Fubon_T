@@ -227,7 +227,6 @@ D:\Project\Fubon\Fubon_T\Fubon_T\obj\Debug\net8.0\Fubon_T.csproj.AssemblyReferen
 D:\Project\Fubon\Fubon_T\Fubon_T\obj\Debug\net8.0\Fubon_T.csproj.Up2Date
 D:\Project\Fubon\Fubon_T\Fubon_T\bin\Debug\net8.0\Azure.Core.dll
 D:\Project\Fubon\Fubon_T\Fubon_T\bin\Debug\net8.0\Azure.Identity.dll
-D:\Project\Fubon\Fubon_T\Fubon_T\bin\Debug\net8.0\BCrypt.Net-Core.dll
 D:\Project\Fubon\Fubon_T\Fubon_T\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
 D:\Project\Fubon\Fubon_T\Fubon_T\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 D:\Project\Fubon\Fubon_T\Fubon_T\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -287,3 +286,5 @@ D:\Project\Fubon\Fubon_T\Fubon_T\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Work
 D:\Project\Fubon\Fubon_T\Fubon_T\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 D:\Project\Fubon\Fubon_T\Fubon_T\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 D:\Project\Fubon\Fubon_T\Fubon_T\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Project\Fubon\Fubon_T\Fubon_T\bin\Debug\net8.0\Dapper.dll
+D:\Project\Fubon\Fubon_T\Fubon_T\obj\Debug\net8.0\Fubon_T.sourcelink.json
